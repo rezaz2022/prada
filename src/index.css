@@ -1,13 +1,103 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* Taken from getting started guide at: https://leafletjs.com/examples/quick-start/ */
+@import "https://unpkg.com/leaflet@1.7.1/dist/leaflet.css";
+@import "https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&display=swap";
+
+/* @font-face {
+  font-family: yekan;
+  src: url("fonts/yekan/yekanregular.eot");
+  src: url("yekanregular.eot?#iefix") format("yekanregular-opentype"),
+    url("yekanregular.woff") format("woff"),
+    url("yekanregular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+} */
+
+@font-face {
+  font-family: "MyFont";
+  src: url("fonts/Yekan.ttf") format("truetype");
+  /* %PUBLIC_URL%/ */
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  font-family: "MyFont", sans-serif;
+}
+
+body {
+  font-family: yekan;
+  font-weight: 700;
+}
+/* These CSS variables are global, so they are available in all CSS modules */
+:root {
+  /* main colors */
+  --color-primary: #eb2f64;
+  --color-primary-light: #ff3366;
+  --color-primary-dark: #ba265d;
+
+  --color-grey-light-1: #faf9f9;
+  --color-grey-light-2: #f4f2f2;
+  --color-grey-light-3: #f0eeee;
+  --color-grey-light-4: #ccc;
+
+  --color-grey-dark-1: #333;
+  --color-grey-dark-2: #777;
+  --color-grey-dark-3: #999;
+  /*  */
+
+  --color-brand--1: #ffb545;
+  --color-brand--2: #00c46a;
+
+  --color-dark--0: #242a2e;
+  --color-dark--1: #2d3439;
+  --color-dark--2: #42484d;
+  --color-light--1: #aaa;
+  --color-light--2: #ececec;
+  --color-light--3: #d6dee0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Manrope", sans-serif;
+}
+
+/* icons styling */
+.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
+
+input,
+textarea,
+select {
+  font-family: inherit;
+  font-weight: 600;
+  color: #2d3439;
+}
+/* ==========================================
+Single-colored icons can be modified like so:
+.icon-name {
+  font-size: 32px;
+  color: red;
+}
+========================================== */
+
+.icon-instagram1 {
+  width: 0.857421875em;
+}
+
+.icon-whatsapp {
+  width: 0.857421875em;
 }

@@ -1,0 +1,82 @@
+/* @font-face {
+  font-family: "MyFont";
+  src: url("%PUBLIC_URL%/fonts/MyFont.ttf") format("truetype");
+} */
+
+.footer {
+  font-family: "MyFont", sans-serif;
+  font-size: 1.4rem;
+  font-weight: 300;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: stretch;
+  color: #f0eeee;
+}
+
+.explanations {
+  text-align: end;
+  padding: 2rem 2rem;
+  background-color: #2d3439;
+  flex: 0 0 33%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.explanations input {
+  border: none;
+  background-color: #2d3439;
+  color: #f0eeee;
+  text-align: right;
+  font: inherit;
+}
+.explanations input:focus {
+  outline: none;
+}
+.info {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  padding: 2rem 2rem;
+  background-color: #2d3439;
+}
+
+.info p {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: baseline;
+}
+
+.info span:first-child {
+  padding: 0.6rem 0.5rem 0.4rem 0;
+  margin-right: 0.5rem;
+}
+
+.info span:last-child {
+  align-self: center;
+
+  margin-top: -0.4rem;
+}
+
+.qRCode {
+  flex: 0 0 33%;
+  display: flex;
+  flex: 0 0 30%;
+  flex-direction: column;
+  justify-content: center;
+  gap: 3rem;
+  align-items: center;
+  background-color: #2d343900;
+  color: #2d3439;
+}
+
+.qRCode p {
+  justify-content: center;
+  align-items: center;
+  color: #2d3439;
+}
+
+.qRCodeContainer {
+  width: 2rem;
+}

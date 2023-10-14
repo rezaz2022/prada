@@ -1,0 +1,22 @@
+.logo {
+  display: flex;
+  font-size: 1.4rem;
+  font-weight: 500;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+  justify-content: center;
+  background-color: #2d3439;
+  border-bottom: 1px solid #f0eeee;
+}
+
+.logoHeading {
+  color: #f0eeee;
+  padding: 1rem 0.5rem;
+  border-left: 1px solid #f0eeee;
+  border-right: 1px solid #f0eeee;
+  margin: 0.5rem;
+}
+.logoPhoto {
+  width: 20rem;
+}

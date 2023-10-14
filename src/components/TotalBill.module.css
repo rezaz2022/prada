@@ -1,0 +1,8 @@
+.totalBill {
+  align-self: flex-start;
+  font-weight: 700;
+  font-size: 2rem;
+  padding: 2rem 1rem;
+  color: #2d3439;
+  text-align: right;
+}

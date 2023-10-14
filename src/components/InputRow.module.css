@@ -1,0 +1,86 @@
+.inputRow {
+  display: flex;
+  flex-direction: row-reverse;
+  flex: 1;
+}
+
+.inputRow input {
+  min-width: 0;
+}
+
+.number {
+  flex: 0 1 10%;
+  display: flex;
+  justify-content: center;
+  background-color: #2d3439;
+  color: #f0eeee;
+  padding: 1rem;
+  margin-left: 2px;
+  border: 1px solid #f0eeee;
+}
+
+.product {
+  flex: 0 1 45%;
+  border: 1px solid #2d3439;
+  padding: 1rem;
+  border-bottom: none;
+  text-align: right;
+}
+
+.product:focus {
+  outline: none;
+}
+.numProduct {
+  flex: 0 1 15%;
+  border: 1px solid #2d3439;
+  border-right: none;
+  padding: 1rem;
+  border-bottom: none;
+}
+.numProduct:focus {
+  outline: none;
+}
+.price {
+  flex: 0 1 15%;
+  border: 1px solid #2d3439;
+  border-right: none;
+  padding: 1rem;
+  border-bottom: none;
+}
+.price:focus {
+  outline: none;
+}
+.totalPrice {
+  display: flex;
+  flex: 1 1;
+
+  font-size: 1.4rem;
+  font-weight: 600;
+  border: 1px solid #2d3439;
+  border-right: none;
+  padding: 1rem;
+  border-bottom: none;
+}
+
+/* round first and last */
+
+.number.roundFirst {
+  border-radius: 0 1.5rem 0 0;
+}
+
+.number.roundLast {
+  border-radius: 0 0 1.5rem 0;
+}
+
+.totalPrice.roundFirst {
+  border-radius: 1.5rem 0 0 0;
+}
+
+.totalPrice.roundLast {
+  border-radius: 0 0 0 1.5rem;
+}
+
+/* last element border deleting */
+.lastElement * {
+  border-bottom: 1px solid #2d3439;
+}

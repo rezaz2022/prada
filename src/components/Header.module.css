@@ -1,0 +1,60 @@
+.header {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  font-size: 1.4rem;
+  color: #2d3439;
+  padding: 1rem 2rem;
+  font-weight: 600;
+  border-bottom: 1px solid #f0eeee;
+}
+
+.headerBill {
+  flex: 0 0 50%;
+  margin-bottom: 0.5rem;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+}
+.headerDate {
+  flex: 0 0 50%;
+  margin-bottom: 0.5rem;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+}
+.headerAddress {
+  flex: 0 0 50%;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+}
+.headerPhone {
+  flex: 0 0 50%;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+}
+
+.input {
+  flex: 0 1 60%;
+  margin-left: 1rem;
+  border: none;
+  border-radius: 100px;
+  border-bottom: none;
+  background-color: #f0eeee;
+  color: #2d3439;
+  padding: 0.4rem 1rem;
+  text-align: right;
+}
+
+.input:focus {
+  outline: none;
+}
+
+.label {
+  flex: 0 1 12%;
+  margin-left: 1rem;
+  display: flex;
+  justify-content: flex-end;
+}
