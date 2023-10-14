@@ -6,7 +6,7 @@ export default function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<h1>welcome to prada</h1>} />
+        <Route path="/" element={<Bill />} />
 
         <Route path="bill" element={<Bill />} />
       </Routes>
