@@ -22,7 +22,7 @@
 .product {
   flex: 0 1 50%;
   border: 1px solid #2d3439;
-  padding: 1rem 0;
+  padding: 1rem .5rem 1rem 0;
   border-bottom: none;
   text-align: right;
 }
@@ -36,6 +36,8 @@
   border-right: none;
   padding: 1rem 0;
   border-bottom: none;
+  display:flex;
+  justify-content:center;
 }
 .numProduct:focus {
   outline: none;
@@ -46,6 +48,8 @@
   border-right: none;
   padding: 1rem 0;
   border-bottom: none;
+  display:flex;
+  justify-content:center;
 }
 .price:focus {
   outline: none;
@@ -60,6 +64,8 @@
   border-right: none;
   padding: 1rem 0;
   border-bottom: none;
+  display:flex;
+  justify-content:center;
 }
 
 /* round first and last */
