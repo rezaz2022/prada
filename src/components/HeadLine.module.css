@@ -9,7 +9,7 @@
 .headLineRow {
   flex: 0 0 5%;
   background-color: #2d3439;
-  padding: 1rem;
+  padding: 1rem 0;
   display: flex;
   justify-content: center;
   margin-left: 2px;
@@ -44,7 +44,7 @@
   justify-content: center;
   border: none;
   border-right: 1px solid #f0eeee;
-  padding: 1rem;
+  padding: 1rem 0;
   background-color: #2d3439;
   color: #f0eeee;
 }
