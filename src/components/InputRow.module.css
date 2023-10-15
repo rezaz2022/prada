@@ -25,6 +25,7 @@
   padding: 1rem .5rem 1rem 0;
   border-bottom: none;
   text-align: right;
+  
 }
 
 .product:focus {
@@ -36,8 +37,7 @@
   border-right: none;
   padding: 1rem 0;
   border-bottom: none;
-  display:flex;
-  justify-content:center;
+  text-align: center;
 }
 .numProduct:focus {
   outline: none;
@@ -48,8 +48,7 @@
   border-right: none;
   padding: 1rem 0;
   border-bottom: none;
-  display:flex;
-  justify-content:center;
+  text-align: center;
 }
 .price:focus {
   outline: none;
@@ -64,8 +63,7 @@
   border-right: none;
   padding: 1rem 0;
   border-bottom: none;
-  display:flex;
-  justify-content:center;
+  text-align: center;
 }
 
 /* round first and last */
