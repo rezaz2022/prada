@@ -35,7 +35,7 @@
 }
 .info {
   display: flex;
-  flex: 1;
+  flex: 0 0 33%;
   flex-direction: column;
   padding: 2rem 2rem;
   background-color: #2d3439;
@@ -62,7 +62,7 @@
 .qRCode {
   flex: 0 0 33%;
   display: flex;
-  flex: 0 0 30%;
+  flex: 0 0 34%;
   flex-direction: column;
   justify-content: center;
   gap: 3rem;
