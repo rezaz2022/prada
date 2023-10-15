@@ -56,14 +56,14 @@
 .totalPrice {
   display: flex;
   flex: 1 1;
-
+justify-content:center;
   font-size: 1.4rem;
   font-weight: 600;
   border: 1px solid #2d3439;
   border-right: none;
   padding: 1rem 0;
   border-bottom: none;
-  text-align: center;
+  
 }
 
 /* round first and last */
