@@ -5,8 +5,8 @@ function Logo() {
     <div className={styles.logo}>
       <img
         className={styles.logoPhoto}
-        src="https://drive.google.com/file/d/1_xttq4TQELWByUa6w4hfNXNmiySpZLh4/view"
-        alt=""
+        src="img/new.PNG"
+        alt="logo"
       ></img>
       <p className={styles.logoHeading}>فروشگاه موبایل و لوازم جانبی</p>
     </div>
